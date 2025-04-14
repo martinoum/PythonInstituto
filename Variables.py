@@ -2,6 +2,7 @@ nombre = "Martino"
 edad = 21
 estaturaCm = 170
 
+""""""
 print("Los datos enviados son: ")
 print("Nombre:",nombre)
 print("Edad:",edad)

@@ -1,3 +1,4 @@
+"""
 nombre = input("¿Cuál es tu nombre? ")
 apellido = input("¿Cuál es tu apellido? ")
 edad = input("¿Cuál es tu edad? ")
@@ -8,3 +9,28 @@ aumento = input("Ingrese el porcentaje de aumento: ")
 aumento = float(aumento)/100
 newSueldo = sueldo + (sueldo * aumento)
 print("Hola " + nombre + " " + apellido + ", tu sueldo es: " + str(sueldo) + ", el aumento es de: " + str(aumento*100) + "% , y tu nuevo sueldo es: " + str(newSueldo)	)
+"""
+
+precioProd1 = input("Ingrese el precio del producto 1: ")
+precioProd1 = float(precioProd1)
+cantProd1 = input("Ingrese cuantos productos lleva:")
+cantProd1 = int(cantProd1)
+precioProd2 = input("Ingrese el precio del producto 2: ")
+cantProd2 = input("Ingrese cuantos productos lleva:")
+cantProd2 = int(cantProd2)
+precioProd2 = float(precioProd2)
+total = (precioProd1*cantProd1) + (precioProd2*cantProd2)
+pago = input("Ingrese con cuanto se pagó ")
+pago = float(pago)
+vuelto = pago - total
+print("---------- KIOSCO PEPITO ---------")
+print("                                 ")
+print("prod 1        x",cantProd1,"  $",precioProd1)
+print("prod 2        x",cantProd2,"  $",precioProd2)
+print("-----------------------------------")
+print("Total: $",total)
+print("Se pagó con: $",pago)
+print("Vuelto: $",vuelto)
+print("                                 ")
+print("Gracias por su compra")
+print("-----------------------------------")
