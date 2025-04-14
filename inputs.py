@@ -1,0 +1,8 @@
+nombre = input("¿Cuál es tu nombre? ")
+apellido = input("¿Cuál es tu apellido? ")
+edad = input("¿Cuál es tu edad? ")
+edad = int(edad)
+sueldo = input("¿Cuál es tu sueldo? ")
+sueldo = int(sueldo)
+newSueldo = sueldo + (sueldo * 0.25)
+print("Hola " + nombre + " " + apellido + ", tu sueldo es: " + str(sueldo) + ", y tu nuevo sueldo es: " + str(newSueldo))
