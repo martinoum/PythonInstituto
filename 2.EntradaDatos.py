@@ -1,16 +1,23 @@
-"""
+#Ejercicio 1
 nombre = input("¿Cuál es tu nombre? ")
 apellido = input("¿Cuál es tu apellido? ")
+
+#Ejercicio 2
 edad = input("¿Cuál es tu edad? ")
 edad = int(edad)
+
+#Ejercicio 3
 sueldo = input("Ingrese el sueldo: ")
-sueldo = int(sueldo)
+sueldo = float(sueldo)
+
+#Ejercicio 4
 aumento = input("Ingrese el porcentaje de aumento: ")
 aumento = float(aumento)/100
 newSueldo = sueldo + (sueldo * aumento)
 print("Hola " + nombre + " " + apellido + ", tu sueldo es: " + str(sueldo) + ", el aumento es de: " + str(aumento*100) + "% , y tu nuevo sueldo es: " + str(newSueldo)	)
-"""
 
+
+#Otros ejercicios
 precioProd1 = input("Ingrese el precio del producto 1: ")
 precioProd1 = float(precioProd1)
 cantProd1 = input("Ingrese cuantos productos lleva:")
